@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Cliente</title>
+        <link rel="stylesheet" href="StyleCadastros.css">
+    </head>
+
+    <table>
+        <tr>
+            <th><img src="Static/CadCliente.png"></th>
+            <th colspan="3"><h1>Cadastro de Cliente</h1></th>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="Fisica" name="tipoPessoa" value="Fisica">
+                <label for="Fisica">Pessoa Fisica</label>
+                <input type="radio" id="Juridica" name="tipoPessoa" value="Juridica">
+                <label for="Juridica">Juridica</label>
+            <td>
+                <label for="nomeCompleto">Nome Completo:</label><br>
+                <input type="text" name="nomeCompleto" required='true'>
+            </td>
+            <td>
+                <label for="cpfCnpj">CPF/CNPJ:</label><br>
+                <input type="text" name="cpfCnpj" required='true'>
+            </td>
+            <td>
+                <label for="email">E-mail:</label><br>
+                <input type="text" name="email" required='true'>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="telefone">Telefone:</label><br>
+                <input type="text" name='telefone' required='true'>
+            </td>
+            <td>
+                <label for="Sexo">Sexo:</label><br>
+                <select id="Sexo" required = 'true'>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </td>
+            <td>
+                <label for="idade">Idade:</label><br>
+                <input type="text" name='idade' required='true'>
+            </td>
+            <td>
+                <label for="telefone">Telefone:</label><br>
+                <input type="text" name='telefone' required='true'>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button>Salvar</button>
+            </td>
+            <td colspan="2">
+                <a 
+                    href="Principal.html" target="_self">
+                    <button>Voltar</button>
+                </a>
+            </td>
+        </tr>
+    </table>
+</html>

@@ -1,0 +1,30 @@
+html{
+    background-color: #28374d;
+}
+table{
+    width: 100%;
+}
+p1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color:#e9eeec;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #e9eeec;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#6e5675;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:#bd6981;
+}
+
+img{
+    width: 500px;
+}

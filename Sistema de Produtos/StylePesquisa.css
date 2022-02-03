@@ -1,0 +1,26 @@
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center; 
+}
+
+tr:nth-child(even) {
+    background-color: dimgrey;
+}
+
+tr:nth-last-child(even) {
+    background-color:#C0C0C0;
+}
+tr{
+    font-size: 16px;
+}
+
+th {
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+}
+button{
+    font-size: 30px;
+    width: 300px;
+}

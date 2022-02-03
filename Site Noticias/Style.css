@@ -1,0 +1,53 @@
+p{
+    font-size: 26px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+table{
+    width: 100%;
+    border-collapse: 1px;
+    border-color: black;
+    border: 20px;
+}
+th{
+    font-size: 16px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+tr#subtitulo{
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-style: italic;
+    font-weight: bolder;
+}
+tr#resumo{
+    font-size: 12px;
+}
+tr#Rodape{
+    font-size: 16px;
+    background-color: aqua;
+    text-align: center;
+}
+a{
+    color: #0000FF;
+    font-size: 16px;
+}
+a :visited{
+    color: #DDC71A;
+}
+a :link{
+    color: #0000FF
+}
+a :active{
+    color: #AC0B44;
+}
+a :hover{
+    color: #FF0000;
+    font-weight: bolder;
+}

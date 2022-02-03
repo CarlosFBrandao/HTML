@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>MeuTube</title>
+        <script type="text/javascript" src="Scripts.js"></script>
+    </head>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <p id="campo1">:'(</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="ExibeMensagem()">Clique aqui!</button><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pNumero">Primeiro número inteiro</label>
+                    <input type="text" id="pNumero" name="pNumero", required= "True">
+                    <label for="sNumero">Segundo número inteiro</label>
+                    <input type="text" id="sNumero" name="sNumero", required = "True">
+                    <p id="result">x</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="Soma()">Soma</button>
+                    <button type="button" onclick="Multiplicacao()">Multiplica</button>
+                    <button type="button" onclick="Subtracao()">Subtraí</button><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pNome">Nome: </label>
+                    <input type="text" id="pNome" name="pNome", required= "True">
+                    <label for="sNome">Sobrenome: </label>
+                    <input type="text" id="sNome" name="sNome", required = "True">
+                    <p id="nomeConcat"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="ConcatenaNome()">Concatena</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</html>

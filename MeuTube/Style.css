@@ -1,0 +1,30 @@
+html{
+    background-color: #202020;
+}
+img{
+    width: 10%;
+}
+table{
+    width: 100%;
+}
+input{
+    background-color:  #6a6a6ae0;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 24px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+a{
+    margin-left: 30%;
+}
+
+iframe{
+    width: 450px;
+}
+
+titulo{
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
